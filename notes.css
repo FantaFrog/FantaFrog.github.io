@@ -1,8 +1,12 @@
 body {
-    background-color: darkgray;
+    background-color: darkgray ;
 
     color: white;
     
     font-family: Georgia;
+}
+
+a {
+    color: white;
 }
 
