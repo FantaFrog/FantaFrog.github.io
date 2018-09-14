@@ -1,4 +1,7 @@
-p {
-  font-family: Arial
+body {
+    background-color: darkgray;
+    
+    color: white;
+    
+    font-family: Gerogia;
 }
-
