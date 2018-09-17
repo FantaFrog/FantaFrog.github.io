@@ -1,5 +1,8 @@
-body {
-    background-color: darkgray;
+body{
+ 
+    background-image: url("https://newevolutiondesigns.com/images/freebies/abstract-background-7.jpg");
+    
+    background-color: #cccccc;
     
     color: white;
     
@@ -9,14 +12,19 @@ body {
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 ul {   
-    border: 1px solid black;
+    border: 3px solid black;
+    
+    border-collapse: collapse;
     
     width: 350px;
     
     height: 200px;
     
+    background-color: white;
+    
 }
+
