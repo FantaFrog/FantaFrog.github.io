@@ -1,12 +1,40 @@
 body {
-    background-color: darkgray ;
-
-    color: white;
     
+    background-image: url("https://www.planwallpaper.com/static/images/327912-blue-yellow-abstract-wallpapers.jpg");
+    
+    background-size: cover;
+    
+    background-color: #cccccc;
+ 
+    color: white;
+ 
     font-family: Georgia;
 }
 
 a {
     color: white;
+}
+
+ul{
+    border: 5px solid white;
+    
+    border-collapse: collapse;
+    
+    width: 170px;
+    
+    height: 325px;
+    
+    background-color: #1b1b1b;
+
+}
+
+img{
+    border: 5px solid white;
+    
+    border-collapse: collapse;
+
+    height: 350px;
+    
+    width: 450px;
 }
 

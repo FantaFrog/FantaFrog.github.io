@@ -4,6 +4,12 @@ body {
     color: white;
     
     font-family: Georgia;
+    
+    background-image: url("https://images7.alphacoders.com/525/525851.jpg");
+    
+    background-size: cover;
+    
+    background-color: #cccccc;
 }
 
 table, th, td {
