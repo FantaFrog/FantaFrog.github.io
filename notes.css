@@ -2,7 +2,7 @@ body {
     
     background-image: url("https://www.planwallpaper.com/static/images/327912-blue-yellow-abstract-wallpapers.jpg");
     
-    background-size: cover;
+    background-size: contain;
     
     background-color: #cccccc;
  
