@@ -16,9 +16,11 @@ a {
 }
 
 ul{
-    border: 5px solid white;
+    border: 5px ivory;
     
     border-collapse: collapse;
+    
+    border-style: groove;
     
     width: 170px;
     
@@ -29,9 +31,11 @@ ul{
 }
 
 img{
-    border: 5px solid white;
+    border: 5px solid ivory;
     
     border-collapse: collapse;
+
+    border-style: ridge;
 
     height: 350px;
     

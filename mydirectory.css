@@ -11,16 +11,19 @@ body{
     font-size: 25px;
 }
 
-ul {   
-    border: 5px solid gray;
+
+ul{   
+    border: 5px solid ivory;
     
     border-collapse: collapse;
     
+    border-style: ridge;
+    
     width: 300px;
     
-    height: 300px;
+    height: 400px;
     
-    background-color: #1b1b1b;
+    background-color: #0b0b0d;
     
     color: white;
 }
