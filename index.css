@@ -22,7 +22,18 @@ li:hover {background-color: lightgrey;}
     
     bottom: 0;
     
-    right: 100px;
+    right: 120px;
+}
+.socialmedia{
+      height: 50px;
+    
+    width: 50px;
+    
+    position: fixed;
+    
+    bottom: 0;
+    
+    right: 50px;
 }
 
     
