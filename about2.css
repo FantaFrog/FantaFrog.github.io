@@ -1,3 +1,14 @@
+p{
+    position: fixed;
+    
+    right: 200px; 
+
+    font-size: 12px;
+        
+    font-family: Georgia;
+}
+
+
 body {
     background: midnightblue;
     
@@ -10,27 +21,4 @@ body {
     background-size: cover;
     
     background-color: #cccccc;
-}
-
-table, th, td {
-   border: 1px solid white;
-   
-   border-collapse: collapse;
-   
-   color: red;
-}
-
-a {
-    color: white;
-}
-
-tr:hover {background-color: #f5f5f5;}
-
-th {
-    background-color: red;
-    color: white;
-}
-
-table{
-    background-color: black;
 }
