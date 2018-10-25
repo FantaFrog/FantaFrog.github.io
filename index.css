@@ -4,12 +4,18 @@ font{
     font-family: Georgia;
     
 }
-tr{
-   border: 3px solid gray;
+.menu{
+   
+   border: 3px solid black;
    
    border-collapse: collapse;
    
-   border-style: ridge;
+   border-style: groove;
+   
+   background-image: url();
+   
+   background-color: #cccccc;
+   
 }
 li:hover {background-color: lightgrey;}
 
@@ -22,18 +28,53 @@ li:hover {background-color: lightgrey;}
     
     bottom: 0;
     
-    right: 120px;
+    right: 100px;
 }
+
 .socialmedia{
-      height: 50px;
     
-    width: 50px;
+    height: 50px;
+    
+    width: 50px; 
     
     position: fixed;
     
     bottom: 0;
     
     right: 50px;
+}
+
+.school{
+    
+    font-size: 20px;
+    
+    position: fixed;
+    
+    bottom: 0;
+    
+    right: 0px;
+}
+
+.pictures{
+    
+    border-color: black;
+    
+    border-style: groove;
+    
+    border: 1px;
+      
+    border-collapse: collapse;
+  
+    padding: 15px;
+    
+    position: fixed;
+    
+    top: 100px;
+    
+    margin-left:auto; 
+   
+    margin-right:auto;
+    
 }
 
     
