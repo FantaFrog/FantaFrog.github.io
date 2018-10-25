@@ -17,6 +17,7 @@ font{
    background-color: #cccccc;
    
 }
+
 li:hover {background-color: lightgrey;}
 
 .email {
@@ -28,7 +29,7 @@ li:hover {background-color: lightgrey;}
     
     bottom: 0;
     
-    right: 100px;
+    right: 280px;
 }
 
 .socialmedia{
@@ -41,7 +42,7 @@ li:hover {background-color: lightgrey;}
     
     bottom: 0;
     
-    right: 50px;
+    right: 220px;
 }
 
 .school{
@@ -56,28 +57,21 @@ li:hover {background-color: lightgrey;}
 }
 
 .pictures{
+    border-style: groove;
     
     border-color: black;
     
-    border-style: groove;
-    
-    border: 1px;
-      
     border-collapse: collapse;
-  
-    padding: 15px;
-    
-    position: fixed;
-    
-    top: 100px;
-    
-    margin-left:auto; 
-   
-    margin-right:auto;
-    
 }
-
     
+.pic1{
+    
+    padding-bottom: 100px;
+    
+    padding-left: 50px;
+    
+    padding-right: 50px;
+}
 
 
 
