@@ -6,19 +6,17 @@ font{
 }
 .menu{
    
-   border: 3px solid black;
+   border: 3px solid gray;
    
    border-collapse: collapse;
    
-   border-style: groove;
+   border-style: ridge;
    
-   background-image: url();
-   
-   background-color: #cccccc;
+   background-color: black;
    
 }
 
-li:hover {background-color: lightgrey;}
+li:hover {background-color: ivory;}
 
 .email {
     height: 50px;
@@ -57,11 +55,21 @@ li:hover {background-color: lightgrey;}
 }
 
 .pictures{
+    
     border-style: groove;
     
     border-color: black;
     
     border-collapse: collapse;
+    
+    background-color: #cccccc; 
+    
+    position: fixed;
+    
+    top: 200px;
+    
+    left: 30px;
+    
 }
     
 .pic1{
@@ -72,6 +80,9 @@ li:hover {background-color: lightgrey;}
     
     padding-right: 50px;
 }
+
+
+
 
 
 
