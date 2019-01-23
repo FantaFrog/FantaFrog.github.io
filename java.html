@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us"></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>javascript</title>
+  <link rel="stylesheet" href="java.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ <font size="10">Christopher Thorpe</font>
+</head>
+ <table style="float: right;">
+   <tr class="menu">
+        <td>
+            <div>
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about2.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact.html">Contact Me</a>
+                </li>
+                
+              </ul>
+            </div>
+        </td>
+   </tr>
+ </table>
+</head> 
+    <body>
+        
+        <img id="pic2" src="/Images/smashultimateimg.jpg">
+        
+        <table class=buttons> 
+        
+        <button type="button" onclick=clkme() >Click Me!</button>
+        <p id="demo"></p>
+        
+        <button type="button" onclick=adder()>Click to add</button>
+        
+        <button type="button" onclick=picChange() id="picbutton">The King of Ultimate!</button>
+        
+        <p id="name">God</p>
+        
+        <button 
+        
+        </table>
+<script>
+        
+        
+        var state = "smash"
+        var pic = document.getElementById("pic2")
+        var button = document.getElementById("picbutton")
+        var button2 = document.createElement("button")
+        var buttonText = document.createTextNode("Clicker")
+        var button3 = document.createElement("button4")
+        var buttonText2 = document.createTextNode("add")
+        var button3 = document.createElement("button4")
+        var buttonText2 = document.createTextNode("add")
+        button2.appendChild(buttonText)
+        button2.setAttribute("onclick", "picChange()")
+        button2.setAttribute("id","bubblegum")
+        document.body.appendChild(button2)
+        button3.appendChild(buttonText2)
+        button3.setAttribute("onclick", "adder()")
+        button3.setAttribute("id","biggay")
+        document.body.appendChild(button3)
+        
+        function picChange(){
+            
+          if(state == "smash"){
+            pic.src = "/Images/kingkroolimg.jpg"
+            button.innerHTML = "KING K ROOL"
+            state = "olimar"
+          }
+             
+          else if (state == "olimar"){
+             pic.src = "/Images/ssbu olimar.jpg"
+             button.innerHTML = "down smash"
+             state = "snake"
+          }
+          
+          else if (state == "snake"){
+             pic.src = "/Images/snake-smash-bros-.png"
+             button.innerHTML = "Smash"
+             state = "smash"
+          }
+          
+          
+          }
+        
+        
+        function clkme(){
+          var demo = document.getElementById('demo')
+    
+          demo.innerHTML = "King K Rool Joins the Battle!"
+          demo.style.fontSize = "35px"
+          demo.style.color = "Green"
+        }
+        
+        var demo = document.getElementById('demo')
+        function adder(){
+        var x = 3
+        var y = 4
+        var z = x+y
+        demo.innerHTML = z
+        }
+        
+        var word = "Becky," + " " + "Lemme" + " " + "Smash!"
+        document.getElementById("name").innerHTML
+    
+        var w = 4
+        if(w > 6){
+           document.getElementById("name").innerHTML = "hello"
+        }
+        else{
+           document.getElementById("name").innerHTML = "bye"
+        }
+    </script>
+    </body>
+</html>
